@@ -1,0 +1,21 @@
+.boton-limpiar{
+    background-color: #7b68e6;
+    height: 60px;
+    width: 380px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Loto, sans-serif;
+    color: #eee;
+    border-radius: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 3px;
+    user-select: none;
+}
+.boton-limpiar:hover{
+    background-color: #5a015a;
+}

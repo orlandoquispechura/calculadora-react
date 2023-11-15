@@ -1,0 +1,15 @@
+.contenedor-pantalla{
+     background-color: #1b1b32;
+     color: rgb(222, 216, 216);
+     height: 60px;
+     border-radius: 45px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     padding: 10px 20px 10px 10px;
+     font-size: 30px;
+     font-weight: bold;
+     font-family: Loto, sans-serif;
+     margin: 25px 2px;
+     border: 2px solid white;
+}

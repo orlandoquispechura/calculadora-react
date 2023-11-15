@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc
+}
+.titulo-calculadora{
+  font-size: 4vw;
+  font-family: Loto, sans-serif;
+  margin-top: 20px;
+  color: rgb(56, 54, 54);
+  margin-bottom: 10px;
+}
+.contenedor-calculadora{
+  width: 400px;
+  height: 550px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid rgb(56, 54, 54);
+  padding: 14px;
+}
+.fila{
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
