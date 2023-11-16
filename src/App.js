@@ -7,7 +7,6 @@ import { evaluate } from "mathjs";
 
 function App() {
   const [input, setInput] = useState("");
-  const [title, setTitle] = useState("App Calculadora");
 
   const agregarInput = (valor) => {
     setInput(input + valor);
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="titulo-calculadora">{title}</h1>
+      <h1 className="titulo-calculadora">App Calculadora</h1>
       <div className="contenedor-calculadora">
         <Pantalla input={input} />
         <div className="fila">
