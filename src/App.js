@@ -7,7 +7,7 @@ import { evaluate } from "mathjs";
 
 function App() {
   const [input, setInput] = useState("");
-  const [title, __] = useState("App Calculadora");
+  const [title, setTitle] = useState("App Calculadora");
 
   const agregarInput = (valor) => {
     setInput(input + valor);
