@@ -12,7 +12,7 @@ function App() {
   const agregarInput = (valor) => {
     setInput(input + valor);
   };
-  const calcular = () => {
+  const calcular = () => {    
     if (input) {
       setInput(evaluate(input));
     } else {
