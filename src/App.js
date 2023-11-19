@@ -46,7 +46,7 @@ function App() {
           <Boton manejarClick={calcular}>=</Boton>
           <Boton manejarClick={agregarInput}>0</Boton>
           <Boton manejarClick={agregarInput}>.</Boton>
-          <Boton manejarClick={agregarInput}>x</Boton>
+          <Boton manejarClick={agregarInput}>*</Boton>
         </div>
         <div className="fila">
           <BotonLimpiar manejarClear={() => setInput("")}>Borrar</BotonLimpiar>
